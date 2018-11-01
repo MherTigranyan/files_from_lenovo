@@ -1,0 +1,10 @@
+#!/bin/bash
+#multiply without multiplication mark
+read n1
+read n2
+sum=0
+for  (( i=1; i<=$n1; i++ )) 
+  do
+    sum=$(( sum + n2 ))
+  done 
+echo $sum
